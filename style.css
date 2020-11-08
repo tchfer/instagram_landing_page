@@ -10,7 +10,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243,243,243);
+    background: linear-gradient(45DEG, #405DE6, #5851DB, #833AB4, #E13084, #FD1D1D);
     margin: 0;
     padding: 0;
     display: flex;
@@ -116,6 +116,10 @@ body {
     justify-content: center;
     width: 100%;
     padding: 1.3rem 0;
+}
+
+.get-the-app p {
+    color: #ffffff;
 }
 
 .download {
